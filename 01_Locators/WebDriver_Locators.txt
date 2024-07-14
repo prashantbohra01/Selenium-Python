@@ -1,0 +1,67 @@
+
+Basic Locators:-
+
+Locator Type            	Syntax	                   	Selenium syntax Example
+
+XPATH              //tagname[attribute=value]     driver.find_element(By.XPATH", //input[@name='email']")
+Css selector       tagname[attribute=value]       driver.find_element(By.css_selector, "input[name='email']")
+ID                 No syntax                      driver.find_element(By.ID, "exampleFormControlSelect1")
+Name               No syntax                      driver.find_element(By.NAME, "name")
+Class name         No syntax                      driver.find_element(By.CLASS_NAME, "btn-success")
+Link text          No syntax                      driver.find_element(By.LINK_TEXT, "Genealogies")
+Partial link text  No syntax                     driver.find_element(By.PARTIAL_LINK_TEXT, "partialtext")
+Tag name           No syntax                     driver.find_element(By.TAG_NAME, "span")
+
+
++++++++Customized XPATH Locator Without Tag Name:-++++++++++
+
+Replace tag name with asterisk (*) sign 
+Syntax: //*[attribute=value]
+Example: //*[@name = ‘email’]
+
+
+
+
++++++++++Customized CSS Selector Syntax Without Tag Name+++++++++
+
+Remove tag name
+Syntax: [attribute=value]
+Example: [class*=‘alert-succes’]
+
+
+
+
+++++++++++Generating XPATH based on text++++++++++
+
+Syntax:  //tagname[contains(text(), ‘actual-text’)]
+Example:  //span[contains(text(),'Users Info')]
+
+
+
+
+++++++++Creating XPATH by traversing tags++++++++
+
+Syntax: ParentTag/ChildTag
+Example: //div[@class='product-action']/button
+
+
+
+++++++++Creating a CSS Selector by traversing to nth child+++++++++ 
+
+Syntax: Tagname:nth-child(x)
+Example: div:nth-child(1) 
+
+
+
++++++++++Select Parent Locator from Child using XPATH++++++++++
+
+Syntax XPATH/parent::tagname
+Example: //*[title="test"]/parent::div
+
+
+
+++++++++++Generating CSS Selector from Tag and Class Name+++++++++
+
+Replace spaces with period(.) to use more than one class name
+Syntax: Tagname.ClassName 
+Example: input.search-keyword

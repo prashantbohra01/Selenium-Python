@@ -10,5 +10,5 @@ def testFirstProgram():
     print("Hello-World")
 
 
-def testGreetAll():
+def testCreditcardGreetAll():
     print("Good Morning")

@@ -4,6 +4,8 @@
 
 # Any code should be wrapped in methods
 
+# command for pytest to run in cmd is "pytest -v -s" or "py.test -v -s"
+
 def testFirstProgram():
     print("Hello-World")
 

@@ -5,7 +5,10 @@
 # Any code should be wrapped in methods
 
 # command for pytest to run in cmd is "pytest -v -s" or "py.test -v -s"
+import pytest
 
+
+@pytest.mark.smoke
 def testFirstProgram():
     print("Hello-World")
 

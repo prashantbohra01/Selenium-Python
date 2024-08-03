@@ -37,7 +37,7 @@ def send_messages_to_multiple_contacts(contacts, message):
             print(f"Failed to send message to {contact}. Error: {str(e)}")
 
 # List of contacts to send messages to
-contacts = ["Prashant", "hrithik", "carino", "Kunal"]  # Add more contacts as needed
+contacts = ["Prashant", "hrithik", "Kunal"]  # Add more contacts as needed
 
 # Message to send
 message = "Hi! This is a Python automated message."

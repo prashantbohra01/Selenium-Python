@@ -1,0 +1,21 @@
+2024-08-17 20:23:57,574 :INFO : test_editData : Prashant
+2024-08-17 20:23:57,574 :INFO : test_editData : abc.com
+2024-08-17 20:23:57,601 :DEBUG : test_logging : A debug statement is executed
+2024-08-17 20:23:57,601 :INFO : test_logging : Information statement
+2024-08-17 20:23:57,601 :WARNING : test_logging : Something is in warning mode
+2024-08-17 20:23:57,601 :ERROR : test_logging : A Major error has happend
+2024-08-17 20:23:57,601 :CRITICAL : test_logging : Critical issue
+2024-08-17 20:25:07,199 :INFO : test_editData : Prashant
+2024-08-17 20:25:07,199 :INFO : test_editData : abc.com
+2024-08-17 20:25:07,220 :DEBUG : test_logging : A debug statement is executed
+2024-08-17 20:25:07,220 :INFO : test_logging : Information statement
+2024-08-17 20:25:07,228 :WARNING : test_logging : Something is in warning mode
+2024-08-17 20:25:07,228 :ERROR : test_logging : A Major error has happend
+2024-08-17 20:25:07,228 :CRITICAL : test_logging : Critical issue
+2024-08-17 20:27:27,312 :INFO : test_editData : Prashant
+2024-08-17 20:27:27,312 :INFO : test_editData : abc.com
+2024-08-17 20:27:27,341 :DEBUG : test_logging : A debug statement is executed
+2024-08-17 20:27:27,341 :INFO : test_logging : Information statement
+2024-08-17 20:27:27,341 :WARNING : test_logging : Something is in warning mode
+2024-08-17 20:27:27,343 :ERROR : test_logging : A Major error has happend
+2024-08-17 20:27:27,345 :CRITICAL : test_logging : Critical issue

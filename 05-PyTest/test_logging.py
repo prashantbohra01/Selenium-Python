@@ -13,10 +13,10 @@ def test_loggingDemo():
 
     logger.debug("A debug statement is executed")  # same as print statement
 
-    logger.info("Information statement")
+    logger.info("Information regarding the test case")
 
-    logger.warning("Something is in warning mode")
+    logger.warning("Test case pass with a warning message")
 
-    logger.error("A Major error has happend")
+    logger.error("Test case fail")
 
-    logger.critical("Critical issue")
+    logger.critical("Important test case failed on which other test case depend")

@@ -18,3 +18,7 @@ def dataLoad():
 @pytest.fixture(params=[("Chrome", "Prashant", "Bohra"), ("Firefox", "abc.com"), "IE"])
 def crossBrowser(request):
     return request.param
+
+# used to create custom reports title
+def pytest_html_report_title(report):
+    report.title = "My own title!"

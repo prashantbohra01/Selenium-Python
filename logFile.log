@@ -19,3 +19,14 @@
 2024-08-17 20:27:27,341 :WARNING : test_logging : Something is in warning mode
 2024-08-17 20:27:27,343 :ERROR : test_logging : A Major error has happend
 2024-08-17 20:27:27,345 :CRITICAL : test_logging : Critical issue
+2024-08-17 20:40:54,882 :INFO : test_editData : Prashant
+2024-08-17 20:40:54,882 :INFO : test_editData : abc.com
+2024-08-17 20:40:54,910 :DEBUG : test_logging : A debug statement is executed
+2024-08-17 20:40:54,910 :INFO : test_logging : Information regarding the test case
+2024-08-17 20:40:54,910 :WARNING : test_logging : Test case pass with a warning message
+2024-08-17 20:40:54,911 :ERROR : test_logging : Test case fail
+2024-08-17 20:40:54,911 :CRITICAL : test_logging : Important test case failed on which other test case depend
+2024-08-17 20:42:32,462 :INFO : test_editData : Prashant
+2024-08-17 20:42:32,462 :INFO : test_editData : abc.com
+2024-08-17 20:42:52,284 :INFO : test_editData : Prashant
+2024-08-17 20:42:52,284 :INFO : test_editData : abc.com

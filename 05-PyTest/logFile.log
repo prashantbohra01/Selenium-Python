@@ -1,22 +1,5 @@
-2024-08-03 20:05:32,241 :INFO : test_logging : Information statement
-2024-08-03 20:05:32,241 :WARNING : test_logging : Something is in warning mode
-2024-08-03 20:05:32,241 :ERROR : test_logging : A Major error has happend
-2024-08-03 20:05:32,241 :CRITICAL : test_logging : Critical issue
-2024-08-03 20:07:52,323 :DEBUG : test_logging : A debug statement is executed
-2024-08-03 20:07:52,323 :INFO : test_logging : Information statement
-2024-08-03 20:07:52,323 :WARNING : test_logging : Something is in warning mode
-2024-08-03 20:07:52,323 :ERROR : test_logging : A Major error has happend
-2024-08-03 20:07:52,324 :CRITICAL : test_logging : Critical issue
-2024-08-03 20:44:04,555 :INFO : BaseClass : Prashant
-2024-08-03 20:44:04,555 :INFO : BaseClass : abc.com
-2024-08-03 20:48:13,652 :INFO : BaseClass : Prashant
-2024-08-03 20:48:13,652 :INFO : BaseClass : abc.com
-2024-08-03 20:50:32,434 :INFO : test_editData : Prashant
-2024-08-03 20:50:32,434 :INFO : test_editData : abc.com
-2024-08-03 20:52:11,463 :INFO : test_editData : Prashant
-2024-08-03 20:52:11,463 :INFO : test_editData : abc.com
-2024-08-03 20:52:11,473 :DEBUG : test_logging : A debug statement is executed
-2024-08-03 20:52:11,473 :INFO : test_logging : Information statement
-2024-08-03 20:52:11,473 :WARNING : test_logging : Something is in warning mode
-2024-08-03 20:52:11,473 :ERROR : test_logging : A Major error has happend
-2024-08-03 20:52:11,473 :CRITICAL : test_logging : Critical issue
+2024-08-17 20:42:52,303 :DEBUG : test_logging : A debug statement is executed
+2024-08-17 20:42:52,303 :INFO : test_logging : Information regarding the test case
+2024-08-17 20:42:52,303 :WARNING : test_logging : Test case pass with a warning message
+2024-08-17 20:42:52,303 :ERROR : test_logging : Test case fail
+2024-08-17 20:42:52,304 :CRITICAL : test_logging : Important test case failed on which other test case depend

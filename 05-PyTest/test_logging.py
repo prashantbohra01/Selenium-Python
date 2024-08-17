@@ -3,7 +3,7 @@ import logging
 
 def test_loggingDemo():
     logger = logging.getLogger(__name__)
-    fileHandler = logging.FileHandler('logFile.log')
+    fileHandler = logging.FileHandler('05-PyTest\logFile.log')
     formatter = logging.Formatter("%(asctime)s :%(levelname)s : %(name)s : %(message)s")
     fileHandler.setFormatter(formatter)
 

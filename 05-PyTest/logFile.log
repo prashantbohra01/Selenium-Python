@@ -3,3 +3,8 @@
 2024-08-17 20:42:52,303 :WARNING : test_logging : Test case pass with a warning message
 2024-08-17 20:42:52,303 :ERROR : test_logging : Test case fail
 2024-08-17 20:42:52,304 :CRITICAL : test_logging : Important test case failed on which other test case depend
+2024-08-19 18:08:30,797 :DEBUG : test_logging : A debug statement is executed
+2024-08-19 18:08:30,804 :INFO : test_logging : Information regarding the test case
+2024-08-19 18:08:30,804 :WARNING : test_logging : Test case pass with a warning message
+2024-08-19 18:08:30,804 :ERROR : test_logging : Test case fail
+2024-08-19 18:08:30,804 :CRITICAL : test_logging : Important test case failed on which other test case depend
